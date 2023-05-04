@@ -7,12 +7,14 @@
 body {   
     background: linear-gradient(to right, #E65763, #34073D);
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 header h2 {
     color: white;
     padding-top: 30px;
     margin-bottom: 20px;
+    font-weight: 200;
 }
 
 header input {   
@@ -25,7 +27,8 @@ header input:focus {
     outline:none;  
 }
 
-button {
+#add {
+    cursor: pointer;
     padding: 10PX;
     border: 1.2px solid ;
     border-radius: 0 5px 5px 0 ;
@@ -33,26 +36,61 @@ button {
     align-items: center;
 }
 
+#add:hover {
+    background-color: #E65763;
+    transition: .5s; 
+      
+}
+
 .form {
-    /* border:  1px solid red; */
     display: flex;
     justify-content: center;
 }
 
-#text-content {  
+#task {  
     display: flex;
-    justify-content: left;
+    justify-content: right;
     align-items: center;
 
     padding-left: 10px;
     margin: 20px auto 0;
     border-radius: 2px;
     height: 40px;
-    width: 395px;
-    
-    background: white;   
+    max-width: 393px;
+    font-weight: bold;       
+    background: white;  
+}
+
+#task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#task div {
+    display: flex;
+    align-items: center;
+}
+
+#task ion-icon {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#task  ion-icon:nth-child(1):hover {
+    background-color: green;
+    transition: .5s;    
+}
+
+#task ion-icon:nth-child(2):hover {
+    background-color: red;
+    transition: .5s;
 }
 
 .invisible {
    visibility: hidden;
+}
+
+.butuca {
+    background: blue;
 }

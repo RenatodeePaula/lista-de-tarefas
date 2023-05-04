@@ -24,4 +24,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript Puro
 ---
 
-Feito com ♥ by Renato de Paula 
+Feito by Renato de Paula 
