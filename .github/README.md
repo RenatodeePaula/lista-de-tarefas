@@ -12,7 +12,7 @@
 <br>
 
 <p align="center">
-  <img src="#" width="100%" alt="Imagem do projeto Agendador de Tarefas">
+  <img src="./preview.jpg" width="100%" alt="Imagem do projeto Agendador de Tarefas">
 </p>
 
 ## 🚀 Tecnologias

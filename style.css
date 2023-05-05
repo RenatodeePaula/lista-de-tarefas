@@ -21,6 +21,7 @@ header input {
     padding: 10px;
     width: 360px;      
     border-radius: 5px 0 0 5px;
+    color: #34073D;
 }
 
 header input:focus {
@@ -37,9 +38,8 @@ header input:focus {
 }
 
 #add:hover {
-    background-color: #E65763;
-    transition: .5s; 
-      
+    background-color: #3c2f64;
+    transition: .5s;       
 }
 
 .form {
@@ -54,17 +54,20 @@ header input:focus {
 
     padding-left: 10px;
     margin: 20px auto 0;
-    border-radius: 2px;
+    border-radius: 3.5px;
     height: 40px;
     max-width: 393px;
+
     font-weight: bold;       
     background: white;  
+    color: #34073D;
+    box-shadow: 0 2.5px 4px black;
 }
 
 #task {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 #task div {
@@ -73,24 +76,22 @@ header input:focus {
 }
 
 #task ion-icon {
-    font-size: 40px;
+    font-size: 25px;
     cursor: pointer;
+    padding: 7.3px 1.9px;
 }
 
 #task  ion-icon:nth-child(1):hover {
     background-color: green;
-    transition: .5s;    
+    transition: .5s;         
 }
 
 #task ion-icon:nth-child(2):hover {
     background-color: red;
-    transition: .5s;
+    transition: .5s; 
 }
 
 .invisible {
    visibility: hidden;
 }
 
-.butuca {
-    background: blue;
-}
